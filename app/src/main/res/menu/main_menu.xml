@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/my_animes_option"
+        android:title="Мои аниме" />
+    <item android:id="@+id/sort"
+        android:title="Сортировка">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/sort_name_asc"
+                android:title="Сортировать по имени asc."/>
+            <item android:id="@+id/sort_name_desc"
+                android:title="Сортировать по имени desc."/>
+            <item android:id="@+id/sort_score_asc"
+                android:title="Сортировать по оценке asc."/>
+            <item android:id="@+id/sort_score_desc"
+                android:title="Сортировать по оценке desc."/>
+            <item android:id="@+id/default_sort"
+                android:title="По умолчанию"/>
+        </menu>
+    </item>
+    <item android:id="@+id/settings_option"
+        android:title="Настройки" />
+    <item android:id="@+id/logout_option"
+        android:title="Выйти" />
+
+
+</menu>

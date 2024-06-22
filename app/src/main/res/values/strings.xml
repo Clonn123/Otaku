@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Otaku</string>
+    <string name="my_animes">Мои аниме</string>
+    <string name="name_asc">Название аниме внз.</string>
+    <string name="detail_view">Детали аниме</string>
+    <string name="name_desc">Название аниме врх.</string>
+    <string name="score_asc">Оценка аниме убв.</string>
+    <string name="score_desc">Оценка аниме пвш.</string>
+</resources>
